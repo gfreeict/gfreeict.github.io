@@ -1,6 +1,7 @@
 <div class="site-header">
 
     <nav class="site-nav">
+      <a class="page-link" href="{{ site.url }}">Home</a>
         {% for page in site.pages %}
           {% if page.title %}
           <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
@@ -14,6 +15,5 @@
       <p>{{ site.description }}</p>
      </span>
     </h1>
-
-
+    
 </div>

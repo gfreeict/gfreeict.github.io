@@ -2,6 +2,7 @@
 layout: post
 title: "Lotus Leaf Cafe"
 website: http://www.lotusleafwichita.com/
+updated: 20160604
 ---
 
 ## Menu  
